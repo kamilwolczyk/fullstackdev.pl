@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { CommonModule } from './common/common.module';
-import { RootComponent } from './root/root.component';
+import { RootComponent } from './_site/root/root.component';
 import { PortfolioModule } from './portfolio/portfolio.module';
 
 @NgModule({
@@ -10,7 +9,6 @@ import { PortfolioModule } from './portfolio/portfolio.module';
   ],
   imports: [
     BrowserModule,
-    CommonModule,
     PortfolioModule
   ],
   providers: [],
